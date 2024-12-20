@@ -86,17 +86,9 @@ Key Outputs
 
 Accuracy of the Model: Displays the performance of the trained Random Forest Classifier.
 
-Requirements
+Requirements: Python 3.x
 
-Python 3.x
-
-Libraries:
-
-pandas
-
-scikit-learn
-
-json
+Libraries: pandas, scikit-learn, json
 
 How to Run
 
@@ -110,11 +102,19 @@ Run the Python script.
 View the output to see the target column, selected model, and accuracy.
 
 Example Output:
+
 Target Column: species
+
 Prediction Type: classification
+
 Linear Interactions: []
+
 Polynomial Interactions: []
+
 Explicit Pairwise Interactions: []
+
 Performing tree-based feature reduction, keeping 5 features.
+
 Selected Model: RandomForestClassifier
+
 Accuracy of the model: 0.97
